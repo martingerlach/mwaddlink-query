@@ -23,6 +23,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Make sure you have the http-proxy set up https://wikitech.wikimedia.org/wiki/HTTP_proxy
+
+
 ## Running the model
 
 Get recommendations for a page in a wiki
