@@ -23,8 +23,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Make sure you have the http-proxy set up https://wikitech.wikimedia.org/wiki/HTTP_proxy
-
+Additional notes:
+- Make sure you have the http-proxy set up https://wikitech.wikimedia.org/wiki/HTTP_proxy
+- Add the following nltk-package: ```python -m nltk.downloader punkt```
 
 ## Running the model
 
