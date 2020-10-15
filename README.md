@@ -4,6 +4,10 @@ querying a trained model for link recommendation with the MediaWiki AddLink Exte
 ## Introduction
 This repository tries to provide an interface to the link-recommendation models trained with [mwaddlink](https://github.com/dedcode/mwaddlink).
 
+Update 2020-10-15:
+- The content of this repo has been merged intothe main repo [mwaddlink](https://github.com/dedcode/mwaddlink)
+- So check out the code there, this repo will not be maintained anymore and is most likely out of date.
+
 Currently, the model (and the corresponding data) lives on the stat1008-machine on the wmf-cluster. So this will only work there for the moment.
 
 Note that we only support a small number of languages so far (simple, de), but are continuouosly expanding. 
